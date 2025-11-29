@@ -1,0 +1,32 @@
+--------- beginning of main
+11-29 18:58:37.995  5432  5450 I KASPRESSO: ___________________________________________________________________________
+11-29 18:58:37.997  5432  5450 I KASPRESSO: Logcat buffer may be dumped from 11-29 18:58:37.995
+11-29 18:58:38.024  5432  5450 I KASPRESSO: Starting video recording: Video_IncrementButtonTest.mp4
+11-29 18:58:38.028  5432  5450 I KASPRESSO: Waiting for 3000 ms
+11-29 18:58:38.078  5432  5463 D KASPRESSO: Display resolution: 1440x2952; supported codec resolution: 1088x1920
+11-29 18:58:38.078  5432  5463 D KASPRESSO: Starting video recording with resolution 1088x1920
+11-29 18:58:41.053  5432  5450 I KASPRESSO: ---------------------------------------------------------------------------
+11-29 18:58:41.053  5432  5450 I KASPRESSO: BEFORE TEST SECTION
+11-29 18:58:41.053  5432  5450 I KASPRESSO: ---------------------------------------------------------------------------
+11-29 18:58:41.054  5432  5450 I KASPRESSO: ---------------------------------------------------------------------------
+11-29 18:58:41.054  5432  5450 I KASPRESSO: TEST SECTION
+11-29 18:58:41.055  5432  5450 I KASPRESSO: ---------------------------------------------------------------------------
+11-29 18:58:41.061  5432  5450 I KASPRESSO: ___________________________________________________________________________
+11-29 18:58:41.061  5432  5450 I KASPRESSO: TEST STEP: "1. Launch the app" in IncrementButtonTest
+11-29 18:58:41.704  5432  5432 I KASPRESSO: Check (view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle) on AppCompatButton(id=increment;text=Increment;)
+11-29 18:58:41.795  5432  5432 I KASPRESSO: single click on AppCompatButton(id=increment;text=Increment;)
+11-29 18:58:42.324  5432  5432 I KASPRESSO: single click on AppCompatButton(id=increment;text=Increment;)
+11-29 18:58:43.260  5432  5432 I KASPRESSO: single click on AppCompatButton(id=increment;text=Increment;)
+11-29 18:58:43.863  5432  5432 I KASPRESSO: single click on AppCompatButton(id=increment;text=Increment;)
+11-29 18:58:44.578  5432  5432 I KASPRESSO: single click on AppCompatButton(id=increment;text=Increment;)
+11-29 18:58:44.940  5432  5432 I KASPRESSO: Check an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Count: 5" on AppCompatTextView(id=counter;text=Count: 5;)
+11-29 18:58:44.958  5432  5450 I KASPRESSO: TEST STEP: "1. Launch the app" in IncrementButtonTest SUCCEED. It took 0 minutes, 3 seconds and 894 millis. 
+11-29 18:58:44.958  5432  5450 I KASPRESSO: ___________________________________________________________________________
+11-29 18:58:46.317  5432  5450 I KASPRESSO: Screenshot saved to /data/user/0/com.example.inc_dec/files/screenshots/com.example.inc_dec.IncrementButtonTest/incrementButtonShouldIncreaseValue/IncrementButtonTest_step_1.png
+11-29 18:58:46.327  5432  5450 I KASPRESSO: ---------------------------------------------------------------------------
+11-29 18:58:46.335  5432  5450 I KASPRESSO: AFTER TEST SECTION
+11-29 18:58:46.335  5432  5450 I KASPRESSO: ---------------------------------------------------------------------------
+11-29 18:58:46.341  5432  5450 I KASPRESSO: ---------------------------------------------------------------------------
+11-29 18:58:46.341  5432  5450 I KASPRESSO: TEST PASSED
+11-29 18:58:46.342  5432  5450 I KASPRESSO: ---------------------------------------------------------------------------
+11-29 18:58:46.347  5432  5450 I KASPRESSO: Dump logcat buffer to /data/user/0/com.example.inc_dec/files/logcat/com.example.inc_dec.IncrementButtonTest/incrementButtonShouldIncreaseValue/TestLogcat.txt: logcat -b default -d -t "11-29 18:58:37.995" -s "KASPRESSO","KASPRESSO_TEST"
