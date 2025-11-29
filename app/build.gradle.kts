@@ -45,4 +45,9 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    androidTestImplementation("com.kaspersky.android-components:kaspresso:1.6.0")
+    androidTestImplementation("com.kaspersky.android-components:kaspresso-allure-support:1.6.0")
+    androidTestImplementation("io.qameta.allure:allure-kotlin-android:2.2.4")
+    androidTestImplementation("androidx.test.ext:junit-ktx:1.1.5")
 }
